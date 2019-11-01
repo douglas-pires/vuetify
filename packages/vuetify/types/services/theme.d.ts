@@ -1,4 +1,5 @@
 export interface Theme {
+  currentTheme: Partial<VuetifyThemeVariant>
   dark: boolean
   disable: boolean
   default: string | false
